@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <title>Aula 6</title>
+  </head>
+  <body>
+    <a href="./guessNumber.html">Advinhe o número</a>
+    <h1>Exercícios Aula 6</h1>
+    <form id="form" action="">
+      <p>
+        <label for="numero">Insira um número (inteiro e positivo):</label>
+        <input
+          type="number"
+          name="numero"
+          id="numero"
+          min="0"
+          step="1"
+          required
+        />
+      </p>
+
+      <button type="submit">Calcular</button>
+    </form>
+
+    <p>
+      <label for="fatorial">Fatorial :</label>
+      <input type="number" name="fatorial" id="fatorial" readonly />
+    </p>
+
+    <p>
+      <label for="somaFat">Soma:</label>
+      <input type="number" name="somaFat" id="somaFat" readonly />
+    </p>
+  </body>
+</html>
